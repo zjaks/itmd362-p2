@@ -1,0 +1,7 @@
+Project Two for ITMD 362 Human-Computer Interaction.
+
+Project description:
+
+Single-page sites have seen a resurgent interest in recent years, particularly for showcasing products, services, or an entire company. See One Page Love for a gallery of examples. This project requires you to engage in well-crafted, mobile-first responsive web design with careful, bandwidth-friendly treatment of rich media elements as well as responsive images for traditional and high-DPI/“retina” screens. You will use the site to tell the story of a particular company, product, or organization, and implement elements of your onboarding project (Project One). Alternatively, you may use this project to build a one-page site for that tells your own professional story, perhaps a GitHub user page at <username>.github.io.
+
+By engaging in storytelling, you should think both about how the text content of a site tells a story, but also how image, audio, and video also helps to tell a story. As we will see in the remaining projects in class, good HCI is also good story-telling. It’s a story that users/readers can insert themselves into. This project invites you to get even stronger in your HTML, CSS, and JavaScript skills, while also thinking about techniques and strategies to get a specific group of people to want to read all the way through a page.
