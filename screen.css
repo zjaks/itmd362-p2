@@ -51,11 +51,74 @@ table {
 
 /* Begin Zdenek's CSS */
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Nunito|Arimo);
+
 html { 
   background: url(chicagoskyline1.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background-color: #000033;
 }
+
+#logoimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+    padding-left: 0.5em;
+}
+
+#layout {
+	font-size: 1em;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	line-height: 120%;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   	-webkit-text-stroke-width: 0.015em;
+  	-webkit-text-stroke-color: #004080;
+  	background-color: #232323;
+  	display: block;
+  	width: 100%;
+  	max-width: 100%;
+	border: 0.15em solid white;
+	-webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+	padding: 1.5em;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#heading {
+	text-align: center;
+	color: #42BCFF; /* If webkit is not supported text will be white */
+	font-family: 'PT Serif', serif;
+	font-size: 3em;
+	font-weight: bold;
+	display: block;
+	width: 14em;
+	border: 0.125em solid #262626;
+	-webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0.5em;
+	background-color: #000F42;
+	-webkit-text-fill-color: #42BCFF; /* Will override color (regardless of order) */
+   	-webkit-text-stroke-width: 0.029em;
+  	-webkit-text-stroke-color: #9E9E9E;
+}
+
+
+
+
+
+
+
+
+
