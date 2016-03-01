@@ -59,13 +59,10 @@ html {
 
 #toppage {
 	background: url(chicagoskyline1.jpg) no-repeat center center fixed; 
-  	-webkit-background-size: 100%;
- 	-moz-background-size: 100%;
-  	-o-background-size: 100%;
-	background-size: 100%;
-	@media (max-width: @iphone-screen) {
-        background-attachment: scroll;
-    }
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
 }
 #logoimg {
     display: block;
@@ -103,7 +100,7 @@ div:nth-child(odd) {
     background: #0D0D0C;
     padding-top: 15em;
     padding-bottom: 15em;
-    padding-left: 1.5em;
+    padding-left: 2.5em;
     display: block;
     text-align: left;
 }
@@ -112,7 +109,7 @@ div:nth-child(even) {
     background: #121211;
     padding-top: 15em;
     padding-bottom: 15em;
-    padding-right: 1.5em;
+    padding-right: 2.5em;
     display: block;
     text-align: right;
 }
