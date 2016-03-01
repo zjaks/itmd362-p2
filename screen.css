@@ -96,14 +96,18 @@ html {
 
 div:nth-child(odd) {
     background: #0D0D0C;
-    padding-bottom: 5em;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    padding-left: 1.5em;
     display: block;
     text-align: left;
 }
 
 div:nth-child(even) {
     background: #121211;
-    padding-bottom: 5em;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    padding-right: 1.5em;
     display: block;
     text-align: right;
 }
