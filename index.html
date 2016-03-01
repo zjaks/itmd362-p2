@@ -8,13 +8,31 @@
 </head>
 
 <body>
-    <div id="logoimg">
+    <p1 id="logoimg">
     <img src="skylinesportslogo.jpg" id="logoimg" alt="Skyline Sports" height="170" width="600">
-    </div>
+    </p1>
     
     
     <div id="heading">Welcome to Chicago's Favorite Sports Hub</div>
-	<div id="layout">Chicago's Favorite Sports Hub</div>
-	
+	<div id="layout">
+		<div>There are many things that Chicagoans care about. Tall buildings, food, city life, traffic (sarcasm). </div>
+		<div>Nothing compares however, to our love of history.</div> 
+		<div>Millions of people visit Chicago every year, and many go to our beautiful museums.</div>
+		
+		
+		
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+    
+    return false;
+});
+</script>	
 </body>
 </html>
