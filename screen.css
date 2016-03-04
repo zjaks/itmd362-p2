@@ -73,7 +73,7 @@ html {
     padding-left: 0.5em;
 }
 
-#layout {
+.wrapper {
 	font-size: 1.1em;
 	color: white;
 	font-family: 'Josefin Slab', serif;
@@ -112,6 +112,11 @@ div:nth-child(even) {
     text-align: right;
 }
 
+/* Flexbox */
+
+.wrapper {
+	display: flex;
+}
 #heading {
 	text-align: center;
 	color: #42BCFF; /* If webkit is not supported text will be white */
@@ -155,7 +160,18 @@ div:nth-child(even) {
     padding-left: 0.5em;
 }
 
+#soldierfield {
+	display: center;
+    margin-left: 1em;
+    margin-right: 5em;
+    padding-right: 0.5em;
+}
 
-
+#1924bears {
+	display: center;
+    margin-left: 5em;
+    margin-right: 1em;
+    padding-left: 0.5em;
+}
 
 
