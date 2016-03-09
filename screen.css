@@ -120,7 +120,7 @@ div:nth-child(even) {
 	display: flex;
 }
 
-.heading1 {
+#heading1 {
 	text-align: center;
 	color: #42BCFF; /* If webkit is not supported text will be white */
 	font-family: 'PT Serif', serif;
@@ -142,7 +142,7 @@ div:nth-child(even) {
   	-webkit-text-stroke-color: #9E9E9E;
 }
 
-.heading2 {
+#heading2 {
 	text-align: center;
 	color: #42BCFF; /* If webkit is not supported text will be white */
 	font-family: 'PT Serif', serif;
