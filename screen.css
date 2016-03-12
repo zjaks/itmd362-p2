@@ -71,7 +71,7 @@ html {
     padding-left: 0.5em;
 }
 
-.wrapper {
+.contentwrapper {
 	font-size: 1.1em;
 	color: white;
 	font-family: 'Josefin Slab', serif;
@@ -183,5 +183,11 @@ html {
 	-webkit-text-fill-color: #42BCFF; /* Will override color (regardless of order) */
    	-webkit-text-stroke-width: 0.029em;
   	-webkit-text-stroke-color: #9E9E9E;
+}
+
+.list {
+	color: #030302;
+	font-family: 'Josefin Slab', serif;
+	font-size: 0.85em;
 }
 
