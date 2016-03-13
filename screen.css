@@ -192,11 +192,34 @@ html {
 	text-width: 120%;
 	margin-bottom:1.5em;
 	margin-left: 1em;
+	text-align: center;
 }
 
 h3 {
 	font-weight: bold;
 	font-size: 1.1em; 
-	margin-bottom: 0.5em; 
+	margin-bottom: 0.5em;
+	display: inline-block;
 }
 
+.videowrap {
+	width: 80%;
+	max-width: 40em;
+	margin: 0 auto;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 2em;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
