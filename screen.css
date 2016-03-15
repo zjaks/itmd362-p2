@@ -54,12 +54,7 @@ table {
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Nunito|Arimo|Open+Sans);
 
 html { 
-  background-color: #080807;
-  background: url(chicagoskyline1.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #21315E;
 }
 
 #logoimg {
@@ -73,7 +68,6 @@ html {
 
 .contentwrapper {
 	font-size: 1.1em;
-	color: white;
 	font-family: 'Josefin Slab', serif;
 	font-weight: bold;
 	line-height: 120%;
