@@ -195,14 +195,14 @@ html {
 h3 {
 	font-weight: bold;
 	font-size: 1.1em; 
-	margin-bottom: 0.5em;
+	margin-bottom: 1.5em;
 	display: inline-block;
 }
 
 .videowrap {
 	width: 80%;
 	min-width: 2em;
-	max-width: 40em;
+	max-width: 50em;
 	margin: 0 auto;
 }
 
@@ -224,6 +224,45 @@ h3 {
 	border: 0em;
 }
 
+.text {
+	display: inline-block;
+	text-align: left;
+	border-bottom-width: 0.125em;
+   	border-bottom-color: black;
+   	border-bottom-style: solid;
+   	width: 100%;
+   	margin-bottom: 3em;
+}
+
+p {
+	font-size: 0.65em;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+	.navwrapper li {
+		font-size: 0.85em;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	#heading1 {
+		font-size: 1.3em;
+		width: 21em;
+	}
+	#heading2 {
+		font-size: 1.5em;
+		width: 17em;
+	}
+	.text {
+		width: 40em;
+	}
+	p {
+		font-size: 0.95em;
+	}
+}
+
 @media only screen and (min-width: 1024px) {
 	.navwrapper li {
 		font-size: 0.85em;
@@ -238,6 +277,13 @@ h3 {
 	#heading2 {
 		font-size: 1.5em;
 		width: 17em;
+	}
+	.text {
+		width: 50em;
+	}
+	p {
+		font-size: 1.25em;
+		line-height: 135%;
 	}
 }
 
@@ -255,6 +301,13 @@ h3 {
 	#heading2 {
 		font-size: 2em;
 		width: 20em;
+	}
+	.text {
+		width: 50em;
+	}
+	p {
+		font-size: 1.4em;
+		line-height: 140%;
 	}
 }
 
