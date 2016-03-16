@@ -75,7 +75,7 @@ html {
 	line-height: 120%;
   	background-color: #FBF9F5;
   	display: block;
-  	width: 95%;
+  	width: 85%;
 	border: 0.15em solid #232323;
 	-webkit-border-radius: 0.3em;
     border-radius: 0.3em;
@@ -167,7 +167,7 @@ html {
 	font-weight: bold;
 	line-height: 1em;
 	display: block;
-	width: 14em;
+	width: 12em;
 	border: 0.125em solid #262626;
 	-webkit-border-radius: 0.3em;
     border-radius: 0.3em;
@@ -197,6 +197,14 @@ h3 {
 	font-size: 1.1em; 
 	margin-bottom: 1.5em;
 	display: inline-block;
+}
+
+h4 {
+	font size: 0.20em;
+	margin-bottom: 0.75em;
+	display: block;
+	text-align: left;
+	font-style: italic;
 }
 
 .videowrap {
@@ -247,6 +255,9 @@ p {
 	h3 {
 		font-size: 1.5em;
 	}
+	h4 {
+		font-size: 0.90em;
+	}
 	#heading1 {
 		font-size: 1.3em;
 		width: 21em;
@@ -269,6 +280,9 @@ p {
 	}
 	h3 {
 		font-size: 1.5em;
+	}
+	h4 {
+		font-size: 1em;
 	}
 	#heading1 {
 		font-size: 1.3em;
@@ -293,6 +307,9 @@ p {
 	}
 	h3 {
 		font-size: 2em;
+	}
+	h4 {
+		font-size: 1.2em;
 	}
 	#heading1 {
 		font-size: 1.8em;
