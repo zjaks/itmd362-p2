@@ -51,7 +51,7 @@ table {
 
 /* Begin Zdenek's CSS */
 
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Nunito|Arimo|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:600|Roboto+Condensed:400,700|Arimo:700|Open+Sans:300);
 
 html { 
   background-color: #21315E;
@@ -71,7 +71,7 @@ html {
 .contentwrapper {
 	font-size: 1.1em;
 	font-family: 'Josefin Slab', serif;
-	font-weight: bold;
+	font-weight: 600;
 	line-height: 120%;
   	background-color: #FBF9F5;
   	display: block;
@@ -183,8 +183,9 @@ html {
 }
 
 .list {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
 	color: #030302;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 0.85em;
 	text-width: 120%;
 	margin-bottom:1.5em;
@@ -193,7 +194,8 @@ html {
 }
 
 h3 {
-	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
 	font-size: 1.1em; 
 	margin-bottom: 1.5em;
 	display: inline-block;
