@@ -51,7 +51,7 @@ table {
 
 /* Begin Zdenek's CSS */
 
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:600|Rubik: 700|Roboto+Condensed:400,700|Arimo:700|Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:600|Droid+Serif:600|Rubik: 700|Roboto+Condensed:400,700|Arimo:700|Open+Sans:300);
 
 html { 
   background-color: #21315E;
@@ -191,9 +191,10 @@ html {
 }
 
 h3 {
-	font-family: 'Josefin Slab', sans-serif;
+	font-family: 'Droid Serif', serif;
 	font-weight: 700;
-	font-size: 1.1em; 
+	font-size: 1.25em; 
+	text-width: 120%;
 	margin-bottom: 1.5em;
 	display: inline-block;
 }
@@ -249,6 +250,106 @@ p {
 	margin-bottom: 1em;
 }
 
+#toppagelink{
+	font-size: 1.2em;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	color: #3399ff;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 3em;
+	padding: 1.2em;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+#toppagelink:visited {
+	color: #9900cc;
+}
+
+#toppagelink:hover {
+	text-decoration: underline;
+	text-shadow: 0 0 0.2em #999;
+}
+
+#toppagelink:active {
+	text-decoration: underline;
+	padding-top: 0.2em;
+}
+
+#formheading {
+	text-align: center;
+	color: #42BCFF; /* If webkit is not supported text will be white */
+	font-family: 'PT Serif', serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	width: 17em;
+	border: 0.125em solid #262626;
+	-webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding: 0.50em;
+	background-color: #000F42;
+	-webkit-text-fill-color: #42BCFF; /* Will override color (regardless of order) */
+   	-webkit-text-stroke-width: 0.029em;
+  	-webkit-text-stroke-color: #9E9E9E;
+}
+
+label {
+	display: block;
+	text-align: center;
+	margin-bottom: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1em;
+	font-weight: bold;
+   	-webkit-text-stroke-width: 0.044em;
+  	-webkit-text-stroke-color: #004080;
+}
+
+input[type=email] {
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+}
+
+input[type=email]:invalid {
+  border: 0.2em solid red;
+}
+
+input[type=email]:valid {
+  border: 0.2em solid green;
+}
+
+input[type=submit]:hover {
+	color: #FFE44C;
+}
+
+input[type=submit] {
+	font-size: 0.8em;
+	text-align: center;
+	color: black;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+    background: #42BCFF; 
+    border:0 none;
+    cursor: pointer;
+    -webkit-border-radius: 0.2em;
+    border-radius: 0.3em; 
+    display: block;
+    height: 1.7em;
+    width: 5em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
 @media only screen and (min-width: 768px) {
 	.navwrapper li {
 		font-size: 0.85em;
@@ -257,7 +358,7 @@ p {
 		min-width: 
 	}
 	h3 {
-		font-size: 1.6em;
+		font-size: 1.8em;
 	}
 	h4 {
 		font-size: 1.1em;
@@ -279,6 +380,21 @@ p {
 	p {
 		font-size: 1.2em;
 	}
+	#toppagelink {
+		font-size: 1.4em;
+	}
+	#formheading {
+		font-size: 1.3em;
+		width: 18em;
+	}
+	input[type=submit] {
+		font-size: 1em;
+		height: 1.7em;
+    	width: 6em;
+	}
+	label {
+		font-size: 1.1em;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -286,7 +402,7 @@ p {
 		font-size: 0.85em;
 	}
 	h3 {
-		font-size: 2.1em;
+		font-size: 2.3em;
 	}
 	h4 {
 		font-size: 1.4em;
@@ -307,6 +423,21 @@ p {
 		font-size: 1.4em;
 		line-height: 135%;
 	}
+	#toppagelink {
+		font-size: 1.6em;
+	}
+	#formheading {
+		font-size: 1.8em;
+		width: 20em;
+	}
+	input[type=submit] {
+		font-size: 1.6em;
+		height: 2em;
+    	width: 6em;
+	}
+	label {
+		font-size: 1.6em;
+	}
 }
 
 @media only screen and (min-width: 1920px) {
@@ -314,7 +445,7 @@ p {
 		font-size: 1em;
 	}
 	h3 {
-		font-size: 2.9em;
+		font-size: 3.1em;
 	}
 	h4 {
 		font-size: 1.6em;
@@ -334,6 +465,21 @@ p {
 	p {
 		font-size: 1.5em;
 		line-height: 140%;
+	}
+	#toppagelink {
+		font-size: 1.8em;
+	}
+	#formheading {
+		font-size: 2em;
+		width: 21em;
+	}
+	input[type=submit] {
+		font-size: 1.8em;
+		height: 1.7em;
+    	width: 6em;
+	}
+	label {
+		font-size: 1.8em;
 	}
 }
 
